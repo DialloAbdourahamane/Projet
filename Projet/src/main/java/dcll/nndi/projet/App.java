@@ -22,19 +22,14 @@ package dcll.nndi.projet;
      *             capture de l'exeption *
      */
     public static void main(final String[] args) throws Exception {
-       
-       
         XMLtoJSON testXml = new XMLtoJSON();
         testXml.convertXmlToJson("ExempleXml.xml");
         System.out.println("Conversion XML To JSON : "
         + "resultat disponible dans le fichier ConversionXMLToJSON.json");
-        
-        
         JsonToXML convjsonxml = new JsonToXML();
         convjsonxml.convertJsonToXml("fichier.json", "sortie.xml");
         System.out.println("Conversion JSON To XML  : "
                 + "resultat disponible dans le fichier sortie.xml");
         System.out.println("Fin du developpement");
     }
-    
 }
