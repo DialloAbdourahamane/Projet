@@ -9,7 +9,7 @@ import org.junit.runners.Suite.SuiteClasses;
  *
  */
 @RunWith(Suite.class)
-@SuiteClasses({ AppTest.class, XMLtoJSONTest.class })
+@SuiteClasses({ AppTest.class, XMLtoJSONTest.class, JSONtoXMLTest.class })
 public class AllTests {
 
 }
