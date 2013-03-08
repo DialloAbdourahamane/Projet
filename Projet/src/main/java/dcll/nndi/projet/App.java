@@ -19,8 +19,8 @@ public class App {
 	public static void main(String[] args) throws Exception {
 		XMLtoJSON testXml = new XMLtoJSON();
 		testXml.convertXmlToJson("ExempleXml.xml");
-		System.out.println("Conversion XML To JSON : resultat disponible dans"+
-				" le fichier ConversionXMLToJSON.json");
+		System.out.println("Conversion XML To JSON : " +
+			"resultat disponible dans le fichier ConversionXMLToJSON.json");
 	}
 }
 
