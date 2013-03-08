@@ -21,7 +21,15 @@ import de.odysseus.staxon.xml.util.PrettyXMLEventWriter;
 @SuppressWarnings("restriction")
 public class JsonToXML {
 
-   
+    /**
+     * Copy/format JSON as XML using {@link XMLEventWriter#add(XMLEventReader)}.
+     * @param ficJson
+     *            le fichier json a convertir
+     * @param sortie
+     *            le fichier genere (converti)
+     * @throws XMLStreamException
+     *            capture de lexception xmlstream
+     */
     public void convertJsonToXml(final String ficJson, final String sortie)
             throws Exception {
 
@@ -31,7 +39,6 @@ public class JsonToXML {
         InputStream input = JsonToXML.class.getResourceAsStream(ficJson);
 
         /*
-         * *
          * On redirige la sortie standard sur le second parametre de la methode
          */
 
@@ -40,9 +47,6 @@ public class JsonToXML {
 
         /*
          * On configure le build de xml et json
-         * 
-         * 
-         * 
          */
 
         JsonXMLConfig config = new JsonXMLConfigBuilder().multiplePI(false)
@@ -51,9 +55,6 @@ public class JsonToXML {
         try {
             /*
              * On cree le lecteur json
-             * 
-             * 
-             * 
              */
             XMLEventReader reader = new JsonXMLInputFactory(config)
                     .createXMLEventReader(input);
@@ -72,19 +73,13 @@ public class JsonToXML {
 
             /*
              * On ferme les fichiers xml et json.
-             * 
-             * 
-             * 
              */
             reader.close();
             writer.close();
         } finally {
-            /**
+            /*
              * On ferme les streams dans tous les cas meme s'il y a une
              * exception
-             * 
-             * 
-             * 
              */
             output.close();
             input.close();
