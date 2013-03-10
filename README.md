@@ -4,7 +4,7 @@ Ce projet comprend un comprend un programme java permettant :
         <li>De creér un fichier au format json à partir d'un fichier fournit au format Moodle Xml</li>
         <li>De créer un fichier au format Moodle Xml à partir fichier fournit au format Json </li>
     </ul>
-<h1> Contraintes du projet </h1>
+<h1>Contraintes du projet </h1>
     <ul>
 
         <li>Utilisation de git</li>
