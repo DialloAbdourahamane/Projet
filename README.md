@@ -10,7 +10,7 @@ Ce projet comprend un comprend un programme java permettant :
         <li>Utilisation de git</li>
         <li>Utilisation de Maven : intégration de plugins jxr, pmd, checkstyle, et Unit(tests unitaires)</li>
         <li>Utilisation de Google Drive pour la gestion de la documentation et les échanges </li>
-    <ul>
+    </ul>
 <h1>Présentation des issues </h1>
 Entre autre on a crée 5 issues :
 
