@@ -11,7 +11,7 @@
           Eclipse STS 3.1.0
 
 <h1>Configuration des outils</h1>
-  <ol>Configuration Git
+  <ol> <li>Configuration Git</li>
       <li>  
             Le nouveau développeur doit disposer d'un compte GitHub ou en créer
             un (sur https://github.com et suivre les instructions sur la page https:/
