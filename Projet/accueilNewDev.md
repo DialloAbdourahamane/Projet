@@ -17,16 +17,12 @@
             un (sur https://github.com et suivre les instructions sur la page https:/
             /help.github.com/articles/generating-ssh-keys#platform-linux
             mettre à jour vos clés SSH sur votre environnement de développement
-          et sur votre compte Github) et le communiquer au groupe
-      </li>
-      <li>Le nouveau développeur sera ajouté comme contributeur sur le projet
-      </li>
-      <li>Installer GitBash pour Windows (http://git-scm.com/ )
-      </li>
+          et sur votre compte Github) et le communiquer au groupe</li>
+      <li>Le nouveau développeur sera ajouté comme contributeur sur le projet</li>
+      <li>Installer GitBash pour Windows (http://git-scm.com/ )</li>
       <li>Créer un dossier Projet, ouvrir GitBash et se placer sur le dossier Projet
         et cloner le projet depuis GitHub à l'aide de GitBash :
-        git clone https://github.com/marianendiaye/Projet.git
-      </li>
+        git clone https://github.com/marianendiaye/Projet.git</li>
   </ol>
 <h1>Configuration Eclipse STS</h1>
 
@@ -34,22 +30,18 @@
         <li>Télécharger Eclipse STS suite basé sur Eclipse 3.8.1 JUNO pour
             Windows et choisir le fichier .zip (http://www.springsource.org/
             downloads/sts-ggts ), si ce n'est pas déjà fait et suivre les instructions
-            d’installation
-        </li>
+            d’installation</li>
         <li>Rendez-vous sur Eclipse STS se placer dans la vue « package explorer »
-            et faire un import du projet en tant que projet Maven
-        </li>
+            et faire un import du projet en tant que projet Maven</li>
         <li>Dans la vue « package explorer », faire un clique droit sur le projet
             cliquez sur « Team > Share Project ». Choisir le type de repository «Git ».
-            Suivre les instructions d'Eclipse STS pour créer un nouveau repository Git associé à votre projet.
-        </li>
+            Suivre les instructions d'Eclipse STS pour créer un nouveau repository Git associé à votre projet.</li>
     </ol>
 
 <h1>Déroulement du développement</h1>
 
     <ul>
-          <li>Avant de démarrer votre développement, il faudra créer une branche sur laquelle seront faites les modifications.
-          </li>
+          <li>Avant de démarrer votre développement, il faudra créer une branche sur laquelle seront faites les modifications.</li>
           <li>Par la suite une fois que les modifications seront entérinées, il faudra :
               <ul>
                     <li>envoyer la branche sur le repository distant (pour conserver une trace de la création de la branche)
@@ -61,8 +53,7 @@
                     </li>
                     <li>Envoyer les modifications sur le repository distant à l’aide de git push.
                     </li>
-              </ul>
-          </li>
+              </ul></li>
           <li>Pour créer une branche il existe deux moyens :
               <ul>
                     <li>A l'aide de GitBash : se placer dans le répertoire contenant le projet
@@ -90,20 +81,17 @@
                 <ul>
                     <li>La première fois vous devez crée un remote qui sera un alias sur le
                         repository distant, afin de faciliter l'interaction avec ce dernier.
-                        Pour créer un remote :
-                    </li>
+                        Pour créer un remote :</li>
                     <li>A l'aide de GitBash : se placer dans le dossier Projet, puis exécuter la commande :
                         git remote add origin https://github.com/marianendiaye/Projet.git , puis
                         vérifier que le fetch et le push de origin référence bien le remote déclaré
-                        précédemment (exécuter la commande : git remote -v).
-                    </li>
+                        précédemment (exécuter la commande : git remote -v).</li>
                     <li>A l'aide de Eclipse STS : pas besoin de créer un remote, juste vérifier
                         que le push et le fetch référencient bien le repository distant. Pour
                         cela, il faut se placer dans la vue « package explorer », clic droit sur
                         le projet cliquez sur « Team > remote > Fetch From ». Même chose
                         pour le pull, clic droit sur le projet cliquez sur « Team > remote >Pull »
-                       
-                    </li>
+                       </li>
               </ul>
         </ul>
 <h1>Contraintes du développement: </h1>
