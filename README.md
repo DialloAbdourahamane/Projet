@@ -16,20 +16,15 @@ Entre autre on a crée 5 issues :
     <ol>
         <li>Convertion XML to JSON contenant tous les commits relatifs à la création
             de la classe effectuant le parse d’un fichier du format Moodle XML au
-              format JSON
-        </li>
+              format JSON</li>
         <li>Convertion JSON to XML contenant tous les commits relatifs à la création
             de la classe effectuant le parse d’un fichier du format JSON au format
-            Moodle XML.
-        </li>
+            Moodle XML.</li>
         <li>Test XML to JSON contenant tous les commits relatifs aux tests concernant
-            la conversion d’un fichier du format Moodle XML au format JSON
-        </li>
+            la conversion d’un fichier du format Moodle XML au format JSON</li>
         <li>Test JSON to XML contenant tous les commits relatifs aux tests concernant
-            la conversion d’un fichier du format JSON au format Moodle XML
-        </li>
+            la conversion d’un fichier du format JSON au format Moodle XML</li>
         <li>Fusion code contenant tous les commits relatifs à la fusion des codes avec
-            la branche master du repository distant
-        </li>
+            la branche master du repository distant</li>
     </ol>
 [en savoir plus!](Projet/accueilNewDev.md)
