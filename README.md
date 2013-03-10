@@ -6,7 +6,6 @@ Ce projet comprend un comprend un programme java permettant :
     </ul>
 <h1>Contraintes du projet </h1>
     <ul>
-
         <li>Utilisation de git</li>
         <li>Utilisation de Maven : intégration de plugins jxr, pmd, checkstyle, et Unit(tests unitaires)</li>
         <li>Utilisation de Google Drive pour la gestion de la documentation et les échanges </li>
